@@ -1,0 +1,889 @@
+{
+  "bobble": {
+    "partNumber": "",
+    "revision": "",
+    "manufactureDate": "",
+    "manufactureLine": "",
+    "serialNumber": "",
+    "bootloaderVersion": "",
+    "firmwareVersion": ""
+  },
+  "bomDescription": "",
+  "bomMd5": "",
+  "bomRev": "",
+  "encoder": {
+    "partNumber": "",
+    "revision": "",
+    "manufactureDate": "",
+    "manufactureLine": "",
+    "serialNumber": "",
+    "bootloaderVersion": "",
+    "firmwareVersion": ""
+  },
+  "endDateTime": "",
+  "leftCanoe": {
+    "partNumber": "",
+    "revision": "",
+    "manufactureDate": "",
+    "manufactureLine": "",
+    "serialNumber": "",
+    "bootloaderVersion": "",
+    "firmwareVersion": ""
+  },
+  "mcb": {
+    "partNumber": "",
+    "revision": "",
+    "manufactureDate": "",
+    "manufactureLine": "",
+    "serialNumber": "",
+    "bootloaderVersion": "",
+    "firmwareVersion": ""
+  },
+  "motor": {
+    "partNumber": "",
+    "revision": "",
+    "manufactureDate": "",
+    "manufactureLine": "",
+    "serialNumber": "",
+    "bootloaderVersion": "",
+    "firmwareVersion": ""
+  },
+  "parts": {
+    "tablet": {
+      "serialNumber": "",
+      "tabletBuild": ""
+    },
+    "trainer": {
+      "partNumber": "",
+      "revision": "",
+      "manufactureDate": "",
+      "manufactureLine": "",
+      "serialNumber": "",
+      "compalSerialNumber": ""
+    },
+    "mcb": {
+      "partNumber": "",
+      "revision": "",
+      "manufactureDate": "",
+      "manufactureLine": "",
+      "serialNumber": "",
+      "bootloaderVersion": "",
+      "firmwareVersion": ""
+    },
+    "bobble": {
+      "partNumber": "500-1201",
+      "revision": "001",
+      "manufactureDate": "2023-12-07",
+      "manufactureLine": "17",
+      "serialNumber": "04048197",
+      "bootloaderVersion": "1.1.4.1",
+      "firmwareVersion": "2.15.3.0"
+    },
+    "leftCanoe": {
+      "partNumber": "500-0200",
+      "revision": "003",
+      "manufactureDate": "2023-11-28",
+      "manufactureLine": "17",
+      "serialNumber": "04088310",
+      "bootloaderVersion": "1.2.2.1",
+      "firmwareVersion": "3.7.1.0"
+    },
+    "rightCanoe": {
+      "partNumber": "500-0200",
+      "revision": "003",
+      "manufactureDate": "2023-11-22",
+      "manufactureLine": "17",
+      "serialNumber": "04086246",
+      "bootloaderVersion": "1.2.2.1",
+      "firmwareVersion": "3.7.1.0"
+    },
+    "motor": {
+      "partNumber": "400-0005",
+      "revision": "006",
+      "manufactureDate": "2022-04-21",
+      "manufactureLine": "05",
+      "serialNumber": "00003686",
+      "bootloaderVersion": "0.0.0.0",
+      "firmwareVersion": "0.0.0.0"
+    },
+    "encoder": {
+      "partNumber": "500-1601",
+      "revision": "004",
+      "manufactureDate": "2022-03-03",
+      "manufactureLine": "10",
+      "serialNumber": "02118906",
+      "bootloaderVersion": "0.0.0.0",
+      "firmwareVersion": "0.0.0.2"
+    }
+  },
+  "rightCanoe": {
+    "partNumber": "500-0200",
+    "revision": "003",
+    "manufactureDate": "2023-11-22",
+    "manufactureLine": "17",
+    "serialNumber": "04086246",
+    "bootloaderVersion": "1.2.2.1",
+    "firmwareVersion": "3.7.1.0"
+  },
+  "startDateTime": "2023-12-15T15:16:36Z",
+  "status": "PASS",
+  "tablet": {
+    "serialNumber": "080300200116200",
+    "tabletBuild": "user.FACTORY-rp27.0.10"
+  },
+  "testCenter": "MANUFACTURING",
+  "testRunId": "",
+  "testVersion": "2.10.3-hercules",
+  "testingList": {
+    "test_list_rev": "5940005001",
+    "test_list_description": "t800 jabil",
+    "tests.md5": "89ae671a777f7536fa28b246a82d38ae",
+    "testing_list": {
+      "partNumber": "100-0002_rev005",
+      "tests": [
+        {
+          "test_name": "wiredDeviceInfo",
+          "test_id": 1001
+        },
+        {
+          "test_name": "hiPot",
+          "test_id": 1003
+        },
+        {
+          "test_name": "brake",
+          "test_id": 1002
+        },
+        {
+          "test_name": "power",
+          "test_id": 1004
+        },
+        {
+          "test_name": "sleep",
+          "test_id": 1006
+        },
+        {
+          "test_name": "verifyMcbConnection",
+          "test_id": 1701
+        },
+        {
+          "test_name": "temperatureSensor",
+          "test_id": 1601
+        },
+        {
+          "test_name": "canoeIdentification",
+          "test_id": 1103
+        },
+        {
+          "test_name": "canoePairing",
+          "test_id": 1105
+        },
+        {
+          "test_name": "canoeDeviceInfo",
+          "test_id": 1102
+        },
+        {
+          "test_name": "respool",
+          "test_id": 1005
+        },
+        {
+          "test_name": "motorDifferentialTension",
+          "test_id": 1405
+        },
+        {
+          "test_name": "loadLift",
+          "test_id": 1404
+        },
+        {
+          "test_name": "fullSystemTension",
+          "test_id": 1402
+        },
+        {
+          "test_name": "encoderSpeed",
+          "test_id": 1401
+        },
+        {
+          "test_name": "canoeLockUnlock",
+          "test_id": 1104
+        },
+        {
+          "test_name": "columnPositionSensor",
+          "test_id": 1106
+        },
+        {
+          "test_name": "armAngle",
+          "test_id": 1101
+        },
+        {
+          "test_name": "cartLockUnlock",
+          "test_id": 1201
+        },
+        {
+          "test_name": "cartPositionSensor",
+          "test_id": 1202
+        },
+        {
+          "test_name": "camera",
+          "test_id": 1503
+        },
+        {
+          "test_name": "speaker",
+          "test_id": 1506
+        },
+        {
+          "test_name": "mic",
+          "test_id": 1504
+        },
+        {
+          "test_name": "sensor",
+          "test_id": 1505
+        },
+        {
+          "test_name": "bluetooth",
+          "test_id": 1502
+        },
+        {
+          "test_name": "wifi",
+          "test_id": 1507
+        },
+        {
+          "test_name": "loadFrictionBurnInLeft",
+          "test_id": 1403
+        },
+        {
+          "test_name": "loadFrictionBurnInRight",
+          "test_id": 1406
+        },
+        {
+          "test_name": "sidepull",
+          "test_id": 1203
+        },
+        {
+          "test_name": "cartMovementQuality",
+          "test_id": 1303
+        },
+        {
+          "test_name": "arm",
+          "test_id": 1301
+        },
+        {
+          "test_name": "wrist",
+          "test_id": 1306
+        },
+        {
+          "test_name": "cableMovementSounds",
+          "test_id": 1302
+        },
+        {
+          "test_name": "spool",
+          "test_id": 1305
+        },
+        {
+          "test_name": "cosmeticChecklist",
+          "test_id": 1304
+        }
+      ]
+    }
+  },
+  "trainer": {
+    "partNumber": "100-0002",
+    "revision": "005",
+    "manufactureDate": "2023-12-15",
+    "manufactureLine": "17",
+    "serialNumber": "03052643",
+    "compalSerialNumber": ""
+  },
+  "unitId": "03052643",
+  "results": [
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "trainerPartNumber": "100-0002",
+        "trainerRevision": "005",
+        "trainerManufactureDate": "20231215",
+        "trainerManufactureLine": "17",
+        "trainerSerialNumber": "03052643",
+        "trainerMFGSerialNumber": "",
+        "tabletSerialNumber": "080300200116200",
+        "tabletBuild": "user.FACTORY-rp27.0.10",
+        "mcb_service": "2.5.19-hercules-release",
+        "mcbBootloaderVersion": "1.2.1.1",
+        "mcbFirmwareVersion": "4.6.6.0",
+        "mcbPartNumber": "500-0104",
+        "mcbRevision": "006",
+        "mcbManufactureDate": "20231207",
+        "mcbManufactureLine": "17",
+        "mcbSerialNumber": "04055200",
+        "motorBootloaderVersion": "0.0.0.0",
+        "motorFirmwareVersion": "0.0.0.0",
+        "motorPartNumber": "400-0005",
+        "motorRevision": "006",
+        "motorManufactureDate": "20220421",
+        "motorManufactureLine": "05",
+        "motorSerialNumber": "00003686",
+        "motor_encoderBootloaderVersion": "0.0.0.0",
+        "motor_encoderFirmwareVersion": "0.0.0.2",
+        "motor_encoderPartNumber": "500-1601",
+        "motor_encoderRevision": "004",
+        "motor_encoderManufactureDate": "20220303",
+        "motor_encoderManufactureLine": "10",
+        "motor_encoderSerialNumber": "02118906",
+        "bobbleBootloaderVersion": "1.1.4.1",
+        "bobbleFirmwareVersion": "2.15.3.0",
+        "bobblePartNumber": "500-1201",
+        "bobbleRevision": "001",
+        "bobbleManufactureDate": "20231207",
+        "bobbleManufactureLine": "17",
+        "bobbleSerialNumber": "04048197",
+        "canoeLeftBootloaderVersion": "0.0.0.0",
+        "canoeLeftFirmwareVersion": "0.0.0.0",
+        "canoeLeftPartNumber": "500-0000",
+        "canoeLeftRevision": "000",
+        "canoeLeftManufactureDate": "NULL",
+        "canoeLeftManufactureLine": "NULL",
+        "canoeLeftSerialNumber": "00000000",
+        "canoeRightBootloaderVersion": "0.0.0.0",
+        "canoeRightFirmwareVersion": "0.0.0.0",
+        "canoeRightPartNumber": "500-0000",
+        "canoeRightRevision": "000",
+        "canoeRightManufactureDate": "NULL",
+        "canoeRightManufactureLine": "NULL",
+        "canoeRightSerialNumber": "00000000"
+      },
+      "status": "PASSED",
+      "testName": "Get Wired Electronic Device info",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:12:39Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Ground and Hi Pot Test",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:12:43Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Emergency Brake",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:12:47Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Power On",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:12:50Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "touchScreenWake": "PASS",
+        "pullCableWake": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Sleep/Wake Mode",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:13:21Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Verify connectivity MCB",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:13:24Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "tempMotor": 22.1,
+        "tempMcu": 35.6,
+        "tempDrv": 27.2,
+        "tempShunt": 22.3
+      },
+      "status": "PASSED",
+      "testName": "Temperature Sensors",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:13:26Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftCanoe S/N": "04088310",
+        "leftCanoe PN": "500-0200",
+        "leftCanoe Rev": "003",
+        "RightCanoe S/N": "04086246",
+        "RightCanoe PN": "500-0200",
+        "RightCanoe Rev": "003"
+      },
+      "status": "PASSED",
+      "testName": "Canoe Identification",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:13:38Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftCanoe": "PASS",
+        "rightCanoe": "PASS",
+        "linked leftCanoe S/N": "04088310",
+        "linked leftCanoe PN": "500-0200",
+        "linked leftCanoe Rev": "003",
+        "linked RightCanoe S/N": "04086246",
+        "linked RightCanoe PN": "500-0200",
+        "linked RightCanoe Rev": "003"
+      },
+      "status": "PASSED",
+      "testName": "Setup Pairing - Canoe",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:15:11Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "canoeLeftBootloaderVersion": "1.2.2.1",
+        "canoeLeftFirmwareVersion": "3.7.1.0",
+        "canoeLeftHardwareRevision": "003",
+        "canoeLeftSerialNumber": "04088310",
+        "canoeLeftPartNumber": "500-0200",
+        "canoeLeftManufactureDate": "20231128",
+        "canoeLeftManufactureLine": "17",
+        "canoeRightBootloaderVersion": "1.2.2.1",
+        "canoeRightFirmwareVersion": "3.7.1.0",
+        "canoeRightHardwareRevision": "003",
+        "canoeRightSerialNumber": "04086246",
+        "canoeRightPartNumber": "500-0200",
+        "canoeRightManufactureDate": "20231122",
+        "canoeRightManufactureLine": "17"
+      },
+      "status": "PASSED",
+      "testName": "Get Canoe Electronic Device info",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:15:13Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "unspoolLeft": 138.42,
+        "unspoolRight": 138.7
+      },
+      "status": "PASSED",
+      "testName": "Respool Test",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:16:56Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftLbs": 4.93,
+        "leftPositionLeftCable": 35.47,
+        "leftPositionRightCable": 0.03,
+        "rightLbs": 4.93,
+        "rightPositionLeftCable": 0.24,
+        "rightPositionRightCable": 35.93,
+        "bothLbs": 4.93,
+        "bothPositionLeftCable": 35.53,
+        "bothPositionRightCable": 35.63
+      },
+      "status": "PASSED",
+      "testName": "Motor and Differential Tension",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:18:07Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "repsComplete": 10,
+        "avgUpLbs": "33.23",
+        "avgDownLbs": "26.57",
+        "avgBothLbs": "29.90"
+      },
+      "status": "PASSED",
+      "testName": "Load and Friction tests - Load Lift",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:21:47Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "startTs": "2023-12-15T15:21:49Z",
+        "finalTs": "2023-12-15T15:31:15Z",
+        "repsComplete": 73,
+        "startTempMotor": 23.9,
+        "startTempDrv": 32.8,
+        "startTempMcu": 39.4,
+        "startTempShunt": 25.3,
+        "startFan": 0.0,
+        "finalTempMot": 80.0,
+        "finalTempDrv": 79.4,
+        "finalTempMcu": 53.3,
+        "finalTempShunt": 24.0,
+        "finalFan": 100.0,
+        "finalAvgUpLbs": 106.56709,
+        "finalAvgDownLbs": 92.9123
+      },
+      "status": "PASSED",
+      "testName": "Mechanical Tests - Full System Tension",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:31:15Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "maxSpeed": 235.94
+      },
+      "status": "PASSED",
+      "testName": "Test Encoder",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:33:28Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftButton": "PASS",
+        "rightButton": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Canoe Function Test - Button",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:33:32Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftCanoePosition1": "PASS",
+        "leftCanoePosition2": "PASS",
+        "leftCanoePosition3": "PASS",
+        "leftCanoePosition4": "PASS",
+        "leftCanoePosition5": "PASS",
+        "leftCanoePosition6": "PASS",
+        "rightCanoePosition1": "PASS",
+        "rightCanoePosition2": "PASS",
+        "rightCanoePosition3": "PASS",
+        "rightCanoePosition4": "PASS",
+        "rightCanoePosition5": "PASS",
+        "rightCanoePosition6": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Canoe Function Test - Column Rotation solenoid, detent, and position sensor",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:33:39Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "LeftArmPosition1": "PASS",
+        "LeftArmPosition2": "PASS",
+        "LeftArmPosition3": "PASS",
+        "LeftArmPosition4": "PASS",
+        "LeftArmPosition5": "PASS",
+        "LeftArmPosition6": "PASS",
+        "RightArmPosition1": "PASS",
+        "RightArmPosition2": "PASS",
+        "RightArmPosition3": "PASS",
+        "RightArmPosition4": "PASS",
+        "RightArmPosition5": "PASS",
+        "RightArmPosition6": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Canoe Function Test: Canoe lever, detent, and Arm Angle",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:33:58Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "rightCartLock": "PASS",
+        "leftCartLock": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Cart Position Functional Test - Lock/Unlock",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:34:05Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftCartPosition1": "PASS",
+        "leftCartPosition2": "PASS",
+        "leftCartPosition3": "PASS",
+        "leftCartPosition4": "PASS",
+        "leftCartPosition5": "PASS",
+        "leftCartPosition6": "PASS",
+        "leftCartPosition7": "PASS",
+        "leftCartPosition8": "PASS",
+        "leftCartPosition9": "PASS",
+        "rightCartPosition1": "PASS",
+        "rightCartPosition2": "PASS",
+        "rightCartPosition3": "PASS",
+        "rightCartPosition4": "PASS",
+        "rightCartPosition5": "PASS",
+        "rightCartPosition6": "PASS",
+        "rightCartPosition7": "PASS",
+        "rightCartPosition8": "PASS",
+        "rightCartPosition9": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Cart Position Functional Test - Position Sensor",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:34:23Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Tablet Functional Tests - Camera",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:34:39Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftNumber": 2,
+        "leftSound": "PASS",
+        "leftCorrectNumber": "PASS",
+        "rightNumber": 5,
+        "rightSound": "PASS",
+        "rightCorrectNumber": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Tablet Functional Tests - Speakers",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:34:47Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Tablet Functional Tests - Mic",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:34:59Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "gX": -0.21,
+        "gY": 9.577,
+        "gZ": 0.249
+      },
+      "status": "PASSED",
+      "testName": "Tablet Functional Tests - G-sensor",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:35:02Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Tablet Functional Tests - BT",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:35:05Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Tablet Functional Tests - Wifi",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:36:55Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "startTs": "2023-12-15T15:36:57Z",
+        "finalTs": "2023-12-15T15:55:44Z",
+        "repsComplete": 300,
+        "startTempMotor": 40.2,
+        "startTempDrv": 35.1,
+        "startTempMcu": 39.7,
+        "startTempShunt": 24.8,
+        "startFan": 34.0,
+        "finalTempMotor": 70.1,
+        "finalTempDrv": 57.7,
+        "finalTempMcu": 48.0,
+        "finalTempShunt": 24.2,
+        "finalFan": 100.0,
+        "finalAvgUpLbs": 81.975716,
+        "finalAvgDownLbs": 67.46198,
+        "finalAvgBothLbs": 74.71885
+      },
+      "status": "PASSED",
+      "testName": "Load and Friction tests - Burn In: LEFT Arm",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T15:55:44Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "startTs": "2023-12-15T15:55:46Z",
+        "finalTs": "2023-12-15T17:00:57Z",
+        "repsComplete": 300,
+        "startTempMotor": 57.1,
+        "startTempDrv": 50.8,
+        "startTempMcu": 47.0,
+        "startTempShunt": 24.3,
+        "startFan": 100.0,
+        "finalTempMotor": 63.1,
+        "finalTempDrv": 61.0,
+        "finalTempMcu": 47.2,
+        "finalTempShunt": 24.6,
+        "finalFan": 100.0,
+        "finalAvgUpLbs": 82.29099,
+        "finalAvgDownLbs": 67.94672,
+        "finalAvgBothLbs": 75.11885
+      },
+      "status": "PASSED",
+      "testName": "Load and Friction tests - Burn In: RIGHT Arm",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:00:57Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "min weight (lbs)": 99.6
+      },
+      "status": "PASSED",
+      "testName": "Cart Side-Pull Test",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:07:40Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftCartStutters": 0,
+        "rightCartStutters": 0
+      },
+      "status": "PASSED",
+      "testName": "Mechanical Tests - Cart Movement Quality",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:08:53Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftArm": "PASS",
+        "rightArm": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Mechanical Tests - Arm",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:09:04Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftWrist": "PASS",
+        "rightWrist": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Mechanical Tests - Wrist",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:09:16Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftSound": 0,
+        "rightSound": 0,
+        "bothSounds": 0
+      },
+      "status": "PASSED",
+      "testName": "Mechanical Tests - Cable movement sounds",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:09:37Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {
+        "leftRope": "PASS",
+        "rightRope": "PASS"
+      },
+      "status": "PASSED",
+      "testName": "Mechanical Tests - Spool",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:10:12Z",
+      "unitId": "03052643"
+    },
+    {
+      "deviceId": "080300200116200",
+      "repeats": 1,
+      "results": {},
+      "status": "PASSED",
+      "testName": "Cosmetic Checklist",
+      "testType": "TEST_RUN",
+      "ts": "2023-12-15T17:10:31Z",
+      "unitId": "03052643"
+    }
+  ]
+}
